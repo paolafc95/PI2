@@ -33,6 +33,8 @@
             this.buscarbtn = new System.Windows.Forms.Button();
             this.similarestextB = new System.Windows.Forms.TextBox();
             this.verprodbtn = new System.Windows.Forms.Button();
+            this.abrirdbtn = new System.Windows.Forms.Button();
+            this.idclientcomboB = new System.Windows.Forms.ComboBox();
             this.SuspendLayout();
             // 
             // ingresarNombrelabel
@@ -49,7 +51,7 @@
             // clienteBuscartextBo
             // 
             this.clienteBuscartextBo.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.clienteBuscartextBo.Location = new System.Drawing.Point(157, 40);
+            this.clienteBuscartextBo.Location = new System.Drawing.Point(283, 107);
             this.clienteBuscartextBo.Name = "clienteBuscartextBo";
             this.clienteBuscartextBo.Size = new System.Drawing.Size(144, 24);
             this.clienteBuscartextBo.TabIndex = 1;
@@ -57,7 +59,7 @@
             // buscarbtn
             // 
             this.buscarbtn.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.buscarbtn.Location = new System.Drawing.Point(342, 41);
+            this.buscarbtn.Location = new System.Drawing.Point(311, 41);
             this.buscarbtn.Name = "buscarbtn";
             this.buscarbtn.Size = new System.Drawing.Size(75, 23);
             this.buscarbtn.TabIndex = 3;
@@ -89,11 +91,79 @@
             this.verprodbtn.UseVisualStyleBackColor = true;
             this.verprodbtn.Click += new System.EventHandler(this.verprodbtn_Click);
             // 
+            // abrirdbtn
+            // 
+            this.abrirdbtn.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.abrirdbtn.Location = new System.Drawing.Point(335, 193);
+            this.abrirdbtn.Name = "abrirdbtn";
+            this.abrirdbtn.Size = new System.Drawing.Size(82, 27);
+            this.abrirdbtn.TabIndex = 6;
+            this.abrirdbtn.Text = "Cargar DB";
+            this.abrirdbtn.UseVisualStyleBackColor = true;
+            this.abrirdbtn.Click += new System.EventHandler(this.abrirdbtn_Click);
+            // 
+            // idclientcomboB
+            // 
+            this.idclientcomboB.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.idclientcomboB.FormattingEnabled = true;
+            this.idclientcomboB.Items.AddRange(new object[] {
+            "219",
+            "587",
+            "921",
+            "1787",
+            "2285",
+            "2472",
+            "3176",
+            "3340",
+            "3467",
+            "3611",
+            "4535",
+            "5021",
+            "5394",
+            "5490",
+            "6483",
+            "6818",
+            "7863",
+            "7897",
+            "8192",
+            "8450",
+            "8558",
+            "8839",
+            "9438",
+            "9558",
+            "10934",
+            "11062",
+            "11088",
+            "11863",
+            "12686",
+            "13017",
+            "13137",
+            "15353",
+            "15537",
+            "16109",
+            "16702",
+            "17003",
+            "18298",
+            "18862",
+            "19774",
+            "20229",
+            "20436",
+            "20851",
+            "21559",
+            "21879",
+            "22173"});
+            this.idclientcomboB.Location = new System.Drawing.Point(156, 44);
+            this.idclientcomboB.Name = "idclientcomboB";
+            this.idclientcomboB.Size = new System.Drawing.Size(121, 24);
+            this.idclientcomboB.TabIndex = 7;
+            // 
             // BusquedaForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(434, 391);
+            this.Controls.Add(this.idclientcomboB);
+            this.Controls.Add(this.abrirdbtn);
             this.Controls.Add(this.verprodbtn);
             this.Controls.Add(this.similarestextB);
             this.Controls.Add(this.buscarbtn);
@@ -116,6 +186,8 @@
         private System.Windows.Forms.Button buscarbtn;
         private System.Windows.Forms.TextBox similarestextB;
         private System.Windows.Forms.Button verprodbtn;
+        private System.Windows.Forms.Button abrirdbtn;
+        private System.Windows.Forms.ComboBox idclientcomboB;
     }
 }
 

@@ -1,10 +1,9 @@
 C:\Users\Lilian Paola\Documents\UIcesi\Proyecto integrador1\Taller2\Sugerencia supermercados\Sugerencia supermercados\bin\Debug\Sugerencia supermercados.exe.config
 C:\Users\Lilian Paola\Documents\UIcesi\Proyecto integrador1\Taller2\Sugerencia supermercados\Sugerencia supermercados\bin\Debug\Sugerencia supermercados.exe
-C:\Users\Lilian Paola\Documents\UIcesi\Proyecto integrador1\Taller2\Sugerencia supermercados\Sugerencia supermercados\bin\Debug\Sugerencia supermercados.pdb
-C:\Users\Lilian Paola\Documents\UIcesi\Proyecto integrador1\Taller2\Sugerencia supermercados\Sugerencia supermercados\obj\Debug\Sugerencia supermercados.csprojResolveAssemblyReference.cache
+C:\Users\Lilian Paola\Documents\UIcesi\Proyecto integrador1\Taller2\Sugerencia supermercados\Sugerencia supermercados\obj\Debug\Sugerencia_supermercados.BusquedaForm.resources
+C:\Users\Lilian Paola\Documents\UIcesi\Proyecto integrador1\Taller2\Sugerencia supermercados\Sugerencia supermercados\obj\Debug\Sugerencia_supermercados.ProductosForm.resources
 C:\Users\Lilian Paola\Documents\UIcesi\Proyecto integrador1\Taller2\Sugerencia supermercados\Sugerencia supermercados\obj\Debug\Sugerencia_supermercados.Properties.Resources.resources
 C:\Users\Lilian Paola\Documents\UIcesi\Proyecto integrador1\Taller2\Sugerencia supermercados\Sugerencia supermercados\obj\Debug\Sugerencia supermercados.csproj.GenerateResource.Cache
 C:\Users\Lilian Paola\Documents\UIcesi\Proyecto integrador1\Taller2\Sugerencia supermercados\Sugerencia supermercados\obj\Debug\Sugerencia supermercados.exe
 C:\Users\Lilian Paola\Documents\UIcesi\Proyecto integrador1\Taller2\Sugerencia supermercados\Sugerencia supermercados\obj\Debug\Sugerencia supermercados.pdb
-C:\Users\Lilian Paola\Documents\UIcesi\Proyecto integrador1\Taller2\Sugerencia supermercados\Sugerencia supermercados\obj\Debug\Sugerencia_supermercados.BusquedaForm.resources
-C:\Users\Lilian Paola\Documents\UIcesi\Proyecto integrador1\Taller2\Sugerencia supermercados\Sugerencia supermercados\obj\Debug\Sugerencia_supermercados.ProductosForm.resources
+C:\Users\Lilian Paola\Documents\UIcesi\Proyecto integrador1\Taller2\Sugerencia supermercados\Sugerencia supermercados\obj\Debug\Sugerencia supermercados.csprojResolveAssemblyReference.cache

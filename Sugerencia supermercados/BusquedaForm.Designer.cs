@@ -29,7 +29,6 @@
         private void InitializeComponent()
         {
             this.ingresarNombrelabel = new System.Windows.Forms.Label();
-            this.clienteBuscartextBo = new System.Windows.Forms.TextBox();
             this.buscarbtn = new System.Windows.Forms.Button();
             this.similarestextB = new System.Windows.Forms.TextBox();
             this.verprodbtn = new System.Windows.Forms.Button();
@@ -47,14 +46,6 @@
             this.ingresarNombrelabel.TabIndex = 0;
             this.ingresarNombrelabel.Text = "Ingrese un cliente:";
             this.ingresarNombrelabel.Click += new System.EventHandler(this.ingresarNombrelabel_Click);
-            // 
-            // clienteBuscartextBo
-            // 
-            this.clienteBuscartextBo.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.clienteBuscartextBo.Location = new System.Drawing.Point(283, 107);
-            this.clienteBuscartextBo.Name = "clienteBuscartextBo";
-            this.clienteBuscartextBo.Size = new System.Drawing.Size(144, 24);
-            this.clienteBuscartextBo.TabIndex = 1;
             // 
             // buscarbtn
             // 
@@ -167,7 +158,6 @@
             this.Controls.Add(this.verprodbtn);
             this.Controls.Add(this.similarestextB);
             this.Controls.Add(this.buscarbtn);
-            this.Controls.Add(this.clienteBuscartextBo);
             this.Controls.Add(this.ingresarNombrelabel);
             this.MaximizeBox = false;
             this.Name = "BusquedaForm";
@@ -182,7 +172,6 @@
         #endregion
 
         private System.Windows.Forms.Label ingresarNombrelabel;
-        private System.Windows.Forms.TextBox clienteBuscartextBo;
         private System.Windows.Forms.Button buscarbtn;
         private System.Windows.Forms.TextBox similarestextB;
         private System.Windows.Forms.Button verprodbtn;

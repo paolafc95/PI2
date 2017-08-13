@@ -32,6 +32,7 @@
             this.clienteBuscartextBo = new System.Windows.Forms.TextBox();
             this.buscarbtn = new System.Windows.Forms.Button();
             this.similarestextB = new System.Windows.Forms.TextBox();
+            this.verprodbtn = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // ingresarNombrelabel
@@ -68,6 +69,7 @@
             // 
             this.similarestextB.AcceptsTab = true;
             this.similarestextB.BackColor = System.Drawing.SystemColors.Control;
+            this.similarestextB.Font = new System.Drawing.Font("Lucida Sans", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.similarestextB.Location = new System.Drawing.Point(24, 98);
             this.similarestextB.Multiline = true;
             this.similarestextB.Name = "similarestextB";
@@ -76,16 +78,31 @@
             this.similarestextB.Size = new System.Drawing.Size(253, 265);
             this.similarestextB.TabIndex = 4;
             // 
+            // verprodbtn
+            // 
+            this.verprodbtn.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.verprodbtn.Location = new System.Drawing.Point(311, 334);
+            this.verprodbtn.Name = "verprodbtn";
+            this.verprodbtn.Size = new System.Drawing.Size(106, 29);
+            this.verprodbtn.TabIndex = 5;
+            this.verprodbtn.Text = "Ver productos";
+            this.verprodbtn.UseVisualStyleBackColor = true;
+            this.verprodbtn.Click += new System.EventHandler(this.verprodbtn_Click);
+            // 
             // BusquedaForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(452, 424);
+            this.ClientSize = new System.Drawing.Size(434, 391);
+            this.Controls.Add(this.verprodbtn);
             this.Controls.Add(this.similarestextB);
             this.Controls.Add(this.buscarbtn);
             this.Controls.Add(this.clienteBuscartextBo);
             this.Controls.Add(this.ingresarNombrelabel);
+            this.MaximizeBox = false;
             this.Name = "BusquedaForm";
+            this.ShowIcon = false;
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Busqueda de clientes";
             this.ResumeLayout(false);
             this.PerformLayout();
@@ -98,6 +115,7 @@
         private System.Windows.Forms.TextBox clienteBuscartextBo;
         private System.Windows.Forms.Button buscarbtn;
         private System.Windows.Forms.TextBox similarestextB;
+        private System.Windows.Forms.Button verprodbtn;
     }
 }
 

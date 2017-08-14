@@ -7,6 +7,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using System.IO;
 //Paola Fuentes Caro, agosto 2017
 
 namespace Sugerencia_supermercados
@@ -38,7 +39,7 @@ namespace Sugerencia_supermercados
             prodform.Show();
             this.Hide();
 
-            //mostras los productos comunes del cliente y el otro similar
+            //mostrar los productos comunes del cliente y el otro similar
            
         }
 
@@ -51,8 +52,11 @@ namespace Sugerencia_supermercados
             if (openFileDialog1.ShowDialog() == System.Windows.Forms.DialogResult.OK)
             {
                 System.IO.StreamReader sr = new System.IO.StreamReader(openFileDialog1.FileName);
-                MessageBox.Show(sr.ReadToEnd());
+                //MessageBox.Show(sr.ReadToEnd());
+                string srr = sr.ReadLine();
                 sr.Close();
+                similarestextB.Text = srr;
+                
             }
         }        
     }

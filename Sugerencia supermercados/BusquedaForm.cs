@@ -43,11 +43,12 @@ namespace Sugerencia_supermercados
         }
 
         private void abrirdbtn_Click(object sender, EventArgs e)
-        {/*
+        {
             // Displays an OpenFileDialog so the user can select a Cursor.
             OpenFileDialog openFileDialog1 = new OpenFileDialog();
             openFileDialog1.Filter = "Cursor Files|*.cur";
-            openFileDialog1.Title = "Select a Cursor File";
+            openFileDialog1.Filter = "Archivo|*.txt";
+            openFileDialog1.Title = "Select a Data Base";
 
             // Show the Dialog.
             // If the user clicked OK in the dialog and a .CUR file was selected, open it.

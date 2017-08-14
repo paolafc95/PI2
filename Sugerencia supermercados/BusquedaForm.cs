@@ -53,7 +53,7 @@ namespace Sugerencia_supermercados
             {
                 System.IO.StreamReader sr = new System.IO.StreamReader(openFileDialog1.FileName);
                 //MessageBox.Show(sr.ReadToEnd());
-                string srr = sr.ReadLine();
+                string srr = sr.ReadToEnd();
                 sr.Close();
                 similarestextB.Text = srr;
                 

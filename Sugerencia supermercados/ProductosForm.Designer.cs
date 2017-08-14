@@ -44,7 +44,7 @@
             this.clientprodtextB.Multiline = true;
             this.clientprodtextB.Name = "clientprodtextB";
             this.clientprodtextB.ReadOnly = true;
-            this.clientprodtextB.ScrollBars = System.Windows.Forms.ScrollBars.Horizontal;
+            this.clientprodtextB.ScrollBars = System.Windows.Forms.ScrollBars.Both;
             this.clientprodtextB.Size = new System.Drawing.Size(191, 271);
             this.clientprodtextB.TabIndex = 5;
             // 
@@ -57,7 +57,7 @@
             this.comunprodtextB.Multiline = true;
             this.comunprodtextB.Name = "comunprodtextB";
             this.comunprodtextB.ReadOnly = true;
-            this.comunprodtextB.ScrollBars = System.Windows.Forms.ScrollBars.Horizontal;
+            this.comunprodtextB.ScrollBars = System.Windows.Forms.ScrollBars.Both;
             this.comunprodtextB.Size = new System.Drawing.Size(191, 271);
             this.comunprodtextB.TabIndex = 6;
             this.comunprodtextB.TextChanged += new System.EventHandler(this.comunprodtextB_TextChanged);

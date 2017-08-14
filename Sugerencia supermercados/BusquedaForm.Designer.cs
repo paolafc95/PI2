@@ -67,7 +67,7 @@
             this.similarestextB.Multiline = true;
             this.similarestextB.Name = "similarestextB";
             this.similarestextB.ReadOnly = true;
-            this.similarestextB.ScrollBars = System.Windows.Forms.ScrollBars.Horizontal;
+            this.similarestextB.ScrollBars = System.Windows.Forms.ScrollBars.Both;
             this.similarestextB.Size = new System.Drawing.Size(253, 265);
             this.similarestextB.TabIndex = 4;
             // 

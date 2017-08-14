@@ -40,7 +40,12 @@ namespace Sugerencia_supermercados
             this.Hide();
 
             //mostrar los productos comunes del cliente y el otro similar
-           
+            ProductosForm clientprodtextB = new ProductosForm();
+            ProductosForm comunprodtextB = new ProductosForm();              
+           // clientprodtextB.Text = lista1;
+            //comunprodtextB.Text = lista2;
+
+
         }
 
         private void abrirdbtn_Click(object sender, EventArgs e)
@@ -56,6 +61,8 @@ namespace Sugerencia_supermercados
                 string srr = sr.ReadToEnd();
                 sr.Close();
                 similarestextB.Text = srr;
+                ////agregar el archivo a la lista
+                //similares.Add(srr);
                 
             }
         }        

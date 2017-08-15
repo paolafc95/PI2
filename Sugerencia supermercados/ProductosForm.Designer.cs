@@ -47,6 +47,7 @@
             this.clientprodtextB.ScrollBars = System.Windows.Forms.ScrollBars.Both;
             this.clientprodtextB.Size = new System.Drawing.Size(191, 271);
             this.clientprodtextB.TabIndex = 5;
+            this.clientprodtextB.TextChanged += new System.EventHandler(this.clientprodtextB_TextChanged);
             // 
             // comunprodtextB
             // 

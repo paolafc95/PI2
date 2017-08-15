@@ -35,5 +35,10 @@ namespace Sugerencia_supermercados
             buscarform.Show();
             this.Close();
         }
+
+        private void clientprodtextB_TextChanged(object sender, EventArgs e)
+        {
+
+        }
     }
 }

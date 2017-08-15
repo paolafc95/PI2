@@ -147,6 +147,7 @@
             this.idclientcomboB.Name = "idclientcomboB";
             this.idclientcomboB.Size = new System.Drawing.Size(121, 24);
             this.idclientcomboB.TabIndex = 7;
+            this.idclientcomboB.SelectedIndexChanged += new System.EventHandler(this.idclientcomboB_SelectedIndexChanged);
             // 
             // BusquedaForm
             // 

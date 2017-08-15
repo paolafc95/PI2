@@ -8,18 +8,21 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 using System.IO;
+
 //Paola Fuentes Caro, agosto 2017
 
 namespace Sugerencia_supermercados
 {
     public partial class BusquedaForm : Form
     {
+        private Sistema sistema;
               
 
         public BusquedaForm()
         {
             InitializeComponent();
             this.abrirdbtn.Click += new System.EventHandler(this.abrirdbtn_Click);
+            
         }
 
         private void ingresarNombrelabel_Click(object sender, EventArgs e)
@@ -41,9 +44,11 @@ namespace Sugerencia_supermercados
 
             //mostrar los productos comunes del cliente y el otro similar
             ProductosForm clientprodtextB = new ProductosForm();
-            ProductosForm comunprodtextB = new ProductosForm();              
-           // clientprodtextB.Text = lista1;
-            //comunprodtextB.Text = lista2;
+            ProductosForm comunprodtextB = new ProductosForm();
+            //Sistema lis1 = new Sistema();
+            sistema.productosARecomendar();             
+            clientprodtextB.Text = lista1;
+            comunprodtextB.Text = lista2;
 
 
         }
@@ -57,14 +62,18 @@ namespace Sugerencia_supermercados
             if (openFileDialog1.ShowDialog() == System.Windows.Forms.DialogResult.OK)
             {
                 System.IO.StreamReader sr = new System.IO.StreamReader(openFileDialog1.FileName);
-                //MessageBox.Show(sr.ReadToEnd());
                 string srr = sr.ReadToEnd();
                 sr.Close();
                 similarestextB.Text = srr;
                 ////agregar el archivo a la lista
-                //similares.Add(srr);
+                similares.Add(srr);
                 
             }
-        }        
+        }
+
+        private void idclientcomboB_SelectedIndexChanged(object sender, EventArgs e)
+        {
+
+        }
     }
 }

@@ -5,8 +5,9 @@ using System.Text;
 using System.Threading.Tasks;
 using System.IO;
 using System.Reflection;
+using Sugerencia_supermercados;
 
-namespace Mundo
+namespace Sugerencia_supermercados
 {
     /// <summary>
     /// Clase principal del mundo
@@ -109,6 +110,10 @@ namespace Mundo
         public List<int> productosARecomendar(List<int> lista1, List<int> lista2)
         {
             return lista1.Except(lista2).ToList<int>();
+            
+            ProductosForm clientprodtextB = new ProductosForm();
+            ProductosForm comunprodtextB = new ProductosForm();
+            
         }
 
 
@@ -156,8 +161,7 @@ namespace Mundo
                 }
 
             }
-            return similares;
-           
+            return similares;          
 
         }
 
